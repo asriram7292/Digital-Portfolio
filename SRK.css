@@ -1,0 +1,27 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('./loki-marvel\ image.jpg'); /* Replace with your image URL */
+    
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: 100vh; /* Full height for content section */
+    display: flex;
+    background-color: rgb(86, 116, 52);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
